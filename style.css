@@ -1,37 +1,92 @@
-body{
-    margin: 0%;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-section{
+section {
     margin: 1rem;
 }
 
-.banner{
-    width: 95rem;
-    height: 50rem;
-    margin: 0%;
-    padding: 0%;
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-.myimg{
+.myimg {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
     display: block;
-    margin: 0 auto; 
-    /* object-fit: cover; */
+    margin: 0.5rem auto;
 }
 
-.hello{
-    color:blue;
+.hello {
+    color: blue;
     text-align: center;
-    margin-top: 0.5rem; 
+    margin-top: 0.5rem;
 }
-.para{
+
+.para {
     line-height: 1.8;
     font-style: italic;
-    font-size: 1.5rem;
-    color:black;
+    font-size: 1.2rem;
+    color: black;
     text-align: center;
-    margin-top: 0.5rem; 
+    margin-top: 0.5rem;
+}
+
+h3 {
+    color: #333;
+    margin-top: 1.5rem;
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .para {
+        font-size: 1rem;
+    }
+    .myimg {
+        width: 8rem;
+        height: 8rem;
+    }
+    section {
+        margin: 0.5rem;
+    }
+    footer {
+    background-color: #66bfbf;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
 }
