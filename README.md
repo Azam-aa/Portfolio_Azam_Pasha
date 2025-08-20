@@ -11,5 +11,21 @@ This is my professional portfolio showcasing my skills and projects as a web dev
 * **Responsive Design:** The layout adjusts to different screen sizes, from mobile devices to desktops.
 * **Modern UI/UX:** Clean and intuitive user interface.
 * **Projects Section:** Showcase of my recent work with links to live demos and GitHub repositories.
-* **Contact Form:** A simple form to allow visitors to get in touch.
-* **Clean Code:** Written with semantic HTML5 and modern CSS3.
+
+
+* ## Installation & Usage
+
+To get a local copy up and running, follow these simple steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-github-username/your-repository-name.git](https://github.com/your-github-username/your-repository-name.git)
+    ```
+
+2.  **Navigate into the project directory:**
+    ```bash
+    cd your-repository-name
+    ```
+
+3.  **Open the project:**
+    Simply open the `index.html` file in your web browser.
